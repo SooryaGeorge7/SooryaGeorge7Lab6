@@ -1,0 +1,50 @@
+body{
+	color:green;
+	background-color:black;
+	font-family:Helvetica;
+	text-align:center;
+}
+div {
+  text-align: center;
+}
+
+ul{
+  display: inline-block;
+  text-align: left;
+}
+
+.cvheading{
+  text-shadow: 1px 1px white;
+}
+.cvimportant{
+  font-weight:bold;
+  text-decoration:underline;
+}
+.cvlinks:hover{
+  color:white;
+}
+
+
+#skillscontainer div{
+	border:1px white solid;
+	padding:10px;
+}
+
+
+#coverletter {
+	color:white  !important;
+}
+
+#image-container{
+	border:2px solid gold;
+	padding:3px;
+	margin: 0 auto;
+	width: 200px; 
+	height: 200px; 
+}
+#profileimage {
+	
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+}
